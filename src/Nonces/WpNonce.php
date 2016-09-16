@@ -16,6 +16,17 @@ class WpNonce
                 return wp_nonce_url($URL, $action);
         }
 
+
+        /**
+        *Create a nonce
+        *@param $action :: this is a required string indicating the name of the nonce
+        *@return this function return's a nonce token string
+        */      
+
+        public static function create_nonce($action=-1) {
+                return wp_create_nonce($action);
+        }
+
 	
         /**
         *Add nonce to a FORM

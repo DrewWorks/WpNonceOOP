@@ -1,5 +1,5 @@
 {
-    "name": "andrew/wordpress-nonce",
+    "name": "okuley/wordpress-nonce",
     "description": "Implementation of the whole featured WordPress Nonces in an object oriented way. Included in the root directory is a unit test case.",
     "type": "library",
     "license": "GNU Library General Public License",
